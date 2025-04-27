@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main #main
+      - master #main
       - 'dev-*' # dev-new dev-old 
       - 'feat/**' # feat/new feat/new/old
     paths-ignore:
